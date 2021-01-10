@@ -34,7 +34,6 @@ image.addEventListener('load', function(){
         constructor(){
             this.x = Math.random() * canvas.width;
             this.y =  0;
-            //this.prevX = this.x;
             this.speed = 0;
             this.velocity = Math.random() * 0.9;
             this.size = Math.random() * 2 + .1;
@@ -47,7 +46,6 @@ image.addEventListener('load', function(){
                 this.y = 0;
                 this.x = Math.random() * canvas.width;
             }
-            //console.log(this.x += movement)
         }
         draw(){
             ctx.beginPath();
